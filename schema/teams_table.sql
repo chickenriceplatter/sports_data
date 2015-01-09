@@ -1,0 +1,30 @@
+drop table if exists teams;
+
+create table teams(
+rank varchar(255) default null,
+team varchar(255) default null,
+games varchar(255) default null,
+minutes_played varchar(255) default null,
+field_goals varchar(255) default null,
+field_goals_attempted varchar(255) default null,
+field_goal_percentage varchar(255) default null,
+three_pointers varchar(255) default null,
+three_pointers_attempted varchar(255) default null,
+three_pointer_percentage varchar(255) default null,
+two_pointers varchar(255) default null,
+two_pointers_attempted varchar(255) default null,
+two_pointer_percentage varchar(255) default null,
+free_throws varchar(255) default null,
+free_throws_attempted varchar(255) default null,
+free_throw_percentage varchar(255) default null,
+offensive_rebounds varchar(255) default null,
+defensive_rebounds varchar(255) default null,
+total_rebounds varchar(255) default null,
+assists varchar(255) default null,
+steals varchar(255) default null,
+blocks varchar(255) default null,
+turnovers varchar(255) default null,
+personal_fouls varchar(255) default null,
+points varchar(255) default null,
+points_per_game varchar(255) default null
+);
